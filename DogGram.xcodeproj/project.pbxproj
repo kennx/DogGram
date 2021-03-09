@@ -15,6 +15,9 @@
 		3823A8BC25F764D5008036B1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823A8BB25F764D5008036B1 /* Extensions.swift */; };
 		3823A8BF25F76680008036B1 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823A8BE25F76680008036B1 /* FeedView.swift */; };
 		3823A8C225F7679A008036B1 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823A8C125F7679A008036B1 /* PostView.swift */; };
+		3823A8C625F76CE9008036B1 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823A8C525F76CE9008036B1 /* PostModel.swift */; };
+		3823A8CA25F77047008036B1 /* PostArrayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823A8C925F77047008036B1 /* PostArrayObject.swift */; };
+		3823A8CD25F77515008036B1 /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823A8CC25F77515008036B1 /* CommentsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		3823A8BB25F764D5008036B1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3823A8BE25F76680008036B1 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		3823A8C125F7679A008036B1 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		3823A8C525F76CE9008036B1 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		3823A8C925F77047008036B1 /* PostArrayObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostArrayObject.swift; sourceTree = "<group>"; };
+		3823A8CC25F77515008036B1 /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 		3823A8A025F75DFD008036B1 /* DogGram */ = {
 			isa = PBXGroup;
 			children = (
+				3823A8C425F76CD6008036B1 /* Model */,
 				3823A8BA25F764B6008036B1 /* Helpers */,
 				3823A8B625F760EA008036B1 /* Views */,
 				3823A8B225F75EAD008036B1 /* LaunchScreen.storyboard */,
@@ -93,6 +100,7 @@
 				3823A8A125F75DFD008036B1 /* DogGramApp.swift */,
 				3823A8A325F75DFD008036B1 /* ContentView.swift */,
 				3823A8BE25F76680008036B1 /* FeedView.swift */,
+				3823A8CC25F77515008036B1 /* CommentsView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -111,6 +119,15 @@
 				3823A8BB25F764D5008036B1 /* Extensions.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3823A8C425F76CD6008036B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3823A8C525F76CE9008036B1 /* PostModel.swift */,
+				3823A8C925F77047008036B1 /* PostArrayObject.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,9 +201,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3823A8BF25F76680008036B1 /* FeedView.swift in Sources */,
+				3823A8C625F76CE9008036B1 /* PostModel.swift in Sources */,
 				3823A8A425F75DFD008036B1 /* ContentView.swift in Sources */,
 				3823A8BC25F764D5008036B1 /* Extensions.swift in Sources */,
+				3823A8CA25F77047008036B1 /* PostArrayObject.swift in Sources */,
 				3823A8C225F7679A008036B1 /* PostView.swift in Sources */,
+				3823A8CD25F77515008036B1 /* CommentsView.swift in Sources */,
 				3823A8A225F75DFD008036B1 /* DogGramApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
