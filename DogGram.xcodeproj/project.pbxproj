@@ -10,6 +10,7 @@
 		028A402D25F7946300CBC003 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A402C25F7946300CBC003 /* BrowseView.swift */; };
 		028A403025F7951D00CBC003 /* CarouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A402F25F7951D00CBC003 /* CarouseView.swift */; };
 		028A403325F79BB900CBC003 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A403225F79BB900CBC003 /* ImageGridView.swift */; };
+		028A403625F7A27100CBC003 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A403525F7A27100CBC003 /* UploadView.swift */; };
 		3823A8A225F75DFD008036B1 /* DogGramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823A8A125F75DFD008036B1 /* DogGramApp.swift */; };
 		3823A8A425F75DFD008036B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823A8A325F75DFD008036B1 /* ContentView.swift */; };
 		3823A8A625F75DFF008036B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3823A8A525F75DFF008036B1 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		028A402C25F7946300CBC003 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		028A402F25F7951D00CBC003 /* CarouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouseView.swift; sourceTree = "<group>"; };
 		028A403225F79BB900CBC003 /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
+		028A403525F7A27100CBC003 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
 		3823A89E25F75DFD008036B1 /* DogGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3823A8A125F75DFD008036B1 /* DogGramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogGramApp.swift; sourceTree = "<group>"; };
 		3823A8A325F75DFD008036B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				3823A8BE25F76680008036B1 /* FeedView.swift */,
 				3823A8CC25F77515008036B1 /* CommentsView.swift */,
 				028A402C25F7946300CBC003 /* BrowseView.swift */,
+				028A403525F7A27100CBC003 /* UploadView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				3823A8C225F7679A008036B1 /* PostView.swift in Sources */,
 				028A402D25F7946300CBC003 /* BrowseView.swift in Sources */,
 				38CB951525F779BE0085A183 /* CommentModel.swift in Sources */,
+				028A403625F7A27100CBC003 /* UploadView.swift in Sources */,
 				3823A8CD25F77515008036B1 /* CommentsView.swift in Sources */,
 				3823A8A225F75DFD008036B1 /* DogGramApp.swift in Sources */,
 			);
