@@ -13,6 +13,8 @@
 		3823A8A925F75DFF008036B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3823A8A825F75DFF008036B1 /* Preview Assets.xcassets */; };
 		3823A8B325F75EAD008036B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3823A8B225F75EAD008036B1 /* LaunchScreen.storyboard */; };
 		3823A8BC25F764D5008036B1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823A8BB25F764D5008036B1 /* Extensions.swift */; };
+		3823A8BF25F76680008036B1 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823A8BE25F76680008036B1 /* FeedView.swift */; };
+		3823A8C225F7679A008036B1 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823A8C125F7679A008036B1 /* PostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3823A8AA25F75DFF008036B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3823A8B225F75EAD008036B1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3823A8BB25F764D5008036B1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3823A8BE25F76680008036B1 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		3823A8C125F7679A008036B1 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 			children = (
 				3823A8A125F75DFD008036B1 /* DogGramApp.swift */,
 				3823A8A325F75DFD008036B1 /* ContentView.swift */,
+				3823A8BE25F76680008036B1 /* FeedView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -95,6 +100,7 @@
 		3823A8B825F760FC008036B1 /* Subviews */ = {
 			isa = PBXGroup;
 			children = (
+				3823A8C125F7679A008036B1 /* PostView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -177,8 +183,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3823A8BF25F76680008036B1 /* FeedView.swift in Sources */,
 				3823A8A425F75DFD008036B1 /* ContentView.swift in Sources */,
 				3823A8BC25F764D5008036B1 /* Extensions.swift in Sources */,
+				3823A8C225F7679A008036B1 /* PostView.swift in Sources */,
 				3823A8A225F75DFD008036B1 /* DogGramApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
