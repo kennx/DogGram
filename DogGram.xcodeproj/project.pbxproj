@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		028A402D25F7946300CBC003 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A402C25F7946300CBC003 /* BrowseView.swift */; };
 		028A403025F7951D00CBC003 /* CarouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A402F25F7951D00CBC003 /* CarouseView.swift */; };
+		028A403325F79BB900CBC003 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A403225F79BB900CBC003 /* ImageGridView.swift */; };
 		3823A8A225F75DFD008036B1 /* DogGramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823A8A125F75DFD008036B1 /* DogGramApp.swift */; };
 		3823A8A425F75DFD008036B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823A8A325F75DFD008036B1 /* ContentView.swift */; };
 		3823A8A625F75DFF008036B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3823A8A525F75DFF008036B1 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		028A402C25F7946300CBC003 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		028A402F25F7951D00CBC003 /* CarouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouseView.swift; sourceTree = "<group>"; };
+		028A403225F79BB900CBC003 /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
 		3823A89E25F75DFD008036B1 /* DogGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3823A8A125F75DFD008036B1 /* DogGramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogGramApp.swift; sourceTree = "<group>"; };
 		3823A8A325F75DFD008036B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				3823A8C125F7679A008036B1 /* PostView.swift */,
 				38CB951125F778960085A183 /* MessageView.swift */,
 				028A402F25F7951D00CBC003 /* CarouseView.swift */,
+				028A403225F79BB900CBC003 /* ImageGridView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				3823A8A425F75DFD008036B1 /* ContentView.swift in Sources */,
 				38CB951225F778960085A183 /* MessageView.swift in Sources */,
 				3823A8BC25F764D5008036B1 /* Extensions.swift in Sources */,
+				028A403325F79BB900CBC003 /* ImageGridView.swift in Sources */,
 				3823A8CA25F77047008036B1 /* PostArrayObject.swift in Sources */,
 				3823A8C225F7679A008036B1 /* PostView.swift in Sources */,
 				028A402D25F7946300CBC003 /* BrowseView.swift in Sources */,
