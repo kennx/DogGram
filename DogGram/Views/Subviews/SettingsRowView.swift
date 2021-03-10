@@ -27,11 +27,13 @@ struct SettingsRowView: View {
       .frame(width: 36, height: 36, alignment: .center)
       
       Text(self.text)
+        .foregroundColor(.primary)
       
       Spacer()
       
       Image(systemName: "chevron.right")
         .font(.headline)
+        .foregroundColor(.primary)
       
       
     }

@@ -33,10 +33,25 @@ struct SettingsView: View {
         // MARK: SECTION 2: PROFILE
         GroupBox(label: SettingLabelView(labelTitle: "Profile", labelImage: "person.fill")) {
           
-          SettingsRowView(leftIcon: "pencil", text: "Display Name", color: Color.MyTheme.purpleColor)
-          SettingsRowView(leftIcon: "text.quote", text: "Bio", color: Color.MyTheme.purpleColor)
-          SettingsRowView(leftIcon: "photo", text: "Profile Picture", color: Color.MyTheme.purpleColor)
-          SettingsRowView(leftIcon: "figure.walk", text: "Sign out", color: Color.MyTheme.purpleColor)
+          NavigationLink(
+            destination: SettingsEditTextView(submissionText: "Current display name", title: "Display Name", description: "You can edit your display name here. This will be seen by other users on your profile and on your posts!", placeholder: "Your display name here...")) {
+            SettingsRowView(leftIcon: "pencil", text: "Display Name", color: Color.MyTheme.purpleColor)
+          }
+          
+          NavigationLink(
+            destination: SettingsEditTextView(submissionText: "Current bio here", title: "Profile Bio", description: "Your bio is a great place to let other users know a little about you. It will be shown on your profile only.", placeholder: "Your Bio here...")) {
+            SettingsRowView(leftIcon: "text.quote", text: "Bio", color: Color.MyTheme.purpleColor)
+          }
+          
+          NavigationLink(
+            destination: Text("Destination")) {
+            SettingsRowView(leftIcon: "photo", text: "Profile Picture", color: Color.MyTheme.purpleColor)
+          }
+          
+          NavigationLink(
+            destination: Text("dd")) {
+            SettingsRowView(leftIcon: "figure.walk", text: "Sign out", color: Color.MyTheme.purpleColor)
+            }
           
         }
         .padding()
