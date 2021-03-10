@@ -15,6 +15,8 @@ struct ProfileView: View {
   
   var posts = PostArrayObject()
   
+  @State var showSettings: Bool = false
+  
   var body: some View {
     ScrollView(.vertical , showsIndicators: false) {
       ProfileHeaderView(profileDisplayName: self.$profileDisplayName)
@@ -25,13 +27,16 @@ struct ProfileView: View {
     .navigationBarTitleDisplayMode(.inline)
     .navigationBarItems(trailing:
                           Button(action: {
-                            
+                            self.showSettings.toggle()
                           }) {
                             Image(systemName: "line.horizontal.3")
                           }
                           .accentColor(Color.MyTheme.purpleColor)
                           .opacity(isMyProfile ? 1.0 : 0.0)
     )
+    .sheet(isPresented: self.$showSettings, content: {
+      SettingsView()
+    })
   }
 }
 

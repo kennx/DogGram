@@ -44,7 +44,7 @@ struct SettingsView: View {
           }
           
           NavigationLink(
-            destination: Text("Destination")) {
+            destination: SettingsEditImageView(title: "Profile Picture", description: "Your profile picture will be shown on your profile and on your posts. Most users make it an image of themselves or of their dog!", selectedImage: UIImage(named: "dog1")!)) {
             SettingsRowView(leftIcon: "photo", text: "Profile Picture", color: Color.MyTheme.purpleColor)
           }
           
@@ -59,9 +59,23 @@ struct SettingsView: View {
         // MARK: SECTION 3: APPLICATION
         GroupBox(label: SettingLabelView(labelTitle: "Application", labelImage: "apps.iphone")) {
           
-          SettingsRowView(leftIcon: "folder.fill", text: "Privacy Policy", color: Color.MyTheme.yellowColor)
-          SettingsRowView(leftIcon: "folder.fill", text: "Terms & Conditions", color: Color.MyTheme.yellowColor)
-          SettingsRowView(leftIcon: "globe", text: "DogGram 's Website", color: Color.MyTheme.yellowColor)
+          Button(action: {
+            self.openCustomURL(urlString: "https://www.google.com")
+          }) {
+            SettingsRowView(leftIcon: "folder.fill", text: "Privacy Policy", color: Color.MyTheme.yellowColor)
+          }
+          
+          Button(action: {
+            self.openCustomURL(urlString: "https://www.yahoo.com")
+          }) {
+            SettingsRowView(leftIcon: "folder.fill", text: "Terms & Conditions", color: Color.MyTheme.yellowColor)
+          }
+          
+          Button(action: {
+            self.openCustomURL(urlString: "https://www.bing.com")
+          }) {
+            SettingsRowView(leftIcon: "globe", text: "DogGram 's Website", color: Color.MyTheme.yellowColor)
+          }
           
         }
         .padding()
@@ -91,6 +105,20 @@ struct SettingsView: View {
       )
     }
   }
+  
+  
+  // MARK: FUNCTIONS
+  
+  func openCustomURL(urlString: String) {
+    guard let url = URL(string: urlString) else {
+      return
+    }
+    
+    if UIApplication.shared.canOpenURL(url) {
+      UIApplication.shared.open(url)
+    }
+  }
+  
 }
 
 struct SettingsView_Previews: PreviewProvider {
