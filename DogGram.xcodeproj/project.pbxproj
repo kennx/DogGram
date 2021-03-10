@@ -24,6 +24,7 @@
 		3823A8CD25F77515008036B1 /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823A8CC25F77515008036B1 /* CommentsView.swift */; };
 		38CB951225F778960085A183 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB951125F778960085A183 /* MessageView.swift */; };
 		38CB951525F779BE0085A183 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB951425F779BE0085A183 /* CommentModel.swift */; };
+		38CB951925F854C30085A183 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB951825F854C30085A183 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		3823A8CC25F77515008036B1 /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
 		38CB951125F778960085A183 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		38CB951425F779BE0085A183 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		38CB951825F854C30085A183 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				3823A8C125F7679A008036B1 /* PostView.swift */,
 				38CB951125F778960085A183 /* MessageView.swift */,
 				028A402F25F7951D00CBC003 /* CarouseView.swift */,
+				38CB951825F854C30085A183 /* ImagePicker.swift */,
 				028A403225F79BB900CBC003 /* ImageGridView.swift */,
 			);
 			path = Subviews;
@@ -230,6 +233,7 @@
 				028A402D25F7946300CBC003 /* BrowseView.swift in Sources */,
 				38CB951525F779BE0085A183 /* CommentModel.swift in Sources */,
 				028A403625F7A27100CBC003 /* UploadView.swift in Sources */,
+				38CB951925F854C30085A183 /* ImagePicker.swift in Sources */,
 				3823A8CD25F77515008036B1 /* CommentsView.swift in Sources */,
 				3823A8A225F75DFD008036B1 /* DogGramApp.swift in Sources */,
 			);
