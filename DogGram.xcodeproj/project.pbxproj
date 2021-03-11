@@ -26,6 +26,8 @@
 		3823A8CA25F77047008036B1 /* PostArrayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823A8C925F77047008036B1 /* PostArrayObject.swift */; };
 		3823A8CD25F77515008036B1 /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823A8CC25F77515008036B1 /* CommentsView.swift */; };
 		38354ACF25F8BDBC00CD75E9 /* SettingsEditImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38354ACE25F8BDBC00CD75E9 /* SettingsEditImageView.swift */; };
+		3890495825F9B25000828DAF /* OnboardingViewPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3890495725F9B25000828DAF /* OnboardingViewPart2.swift */; };
+		3890495C25F9BD4400828DAF /* LikeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3890495B25F9BD4400828DAF /* LikeAnimationView.swift */; };
 		38CB951225F778960085A183 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB951125F778960085A183 /* MessageView.swift */; };
 		38CB951525F779BE0085A183 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB951425F779BE0085A183 /* CommentModel.swift */; };
 		38CB951925F854C30085A183 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB951825F854C30085A183 /* ImagePicker.swift */; };
@@ -60,6 +62,8 @@
 		3823A8C925F77047008036B1 /* PostArrayObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostArrayObject.swift; sourceTree = "<group>"; };
 		3823A8CC25F77515008036B1 /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
 		38354ACE25F8BDBC00CD75E9 /* SettingsEditImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsEditImageView.swift; sourceTree = "<group>"; };
+		3890495725F9B25000828DAF /* OnboardingViewPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPart2.swift; sourceTree = "<group>"; };
+		3890495B25F9BD4400828DAF /* LikeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeAnimationView.swift; sourceTree = "<group>"; };
 		38CB951125F778960085A183 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		38CB951425F779BE0085A183 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
 		38CB951825F854C30085A183 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -146,6 +150,7 @@
 				38CB952D25F8B0C20085A183 /* SettingsEditTextView.swift */,
 				02FD5D1625F8E5360005D9D3 /* SignUpView.swift */,
 				02FD5D1925F8EC370005D9D3 /* OnboardingView.swift */,
+				3890495725F9B25000828DAF /* OnboardingViewPart2.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -162,6 +167,7 @@
 				38CB952125F897E40085A183 /* ProfileHeaderView.swift */,
 				38CB952725F8A4910085A183 /* SettingLabelView.swift */,
 				02FD5D1C25F8EEF50005D9D3 /* SignInWithAppleButtonCustom.swift */,
+				3890495B25F9BD4400828DAF /* LikeAnimationView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -263,10 +269,12 @@
 				3823A8A425F75DFD008036B1 /* ContentView.swift in Sources */,
 				38CB951225F778960085A183 /* MessageView.swift in Sources */,
 				3823A8BC25F764D5008036B1 /* Extensions.swift in Sources */,
+				3890495825F9B25000828DAF /* OnboardingViewPart2.swift in Sources */,
 				028A403325F79BB900CBC003 /* ImageGridView.swift in Sources */,
 				3823A8CA25F77047008036B1 /* PostArrayObject.swift in Sources */,
 				38CB951F25F896B90085A183 /* ProfileView.swift in Sources */,
 				3823A8C225F7679A008036B1 /* PostView.swift in Sources */,
+				3890495C25F9BD4400828DAF /* LikeAnimationView.swift in Sources */,
 				028A402D25F7946300CBC003 /* BrowseView.swift in Sources */,
 				38CB951525F779BE0085A183 /* CommentModel.swift in Sources */,
 				38354ACF25F8BDBC00CD75E9 /* SettingsEditImageView.swift in Sources */,

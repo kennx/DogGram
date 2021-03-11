@@ -115,7 +115,7 @@ struct SettingsView: View {
     }
     
     if UIApplication.shared.canOpenURL(url) {
-      UIApplication.shared.open(url)
+//      UIApplication.shared.open(url)
     }
   }
   
