@@ -106,7 +106,7 @@ struct PostView: View {
             })
           
           Button(action: {
-            
+            self.sharePost()
           }) {
             Image(systemName: "paperplane")
               .font(.title3)

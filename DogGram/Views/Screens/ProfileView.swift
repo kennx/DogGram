@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ProfileView: View {
   
+  @Environment(\.colorScheme) var colorScheme
+  
   var isMyProfile: Bool
   @State var profileDisplayName: String
   var profileUserID: String
@@ -31,7 +33,7 @@ struct ProfileView: View {
                           }) {
                             Image(systemName: "line.horizontal.3")
                           }
-                          .accentColor(Color.MyTheme.purpleColor)
+      .accentColor(self.colorScheme == .light ? Color.MyTheme.purpleColor : Color.MyTheme.yellowColor)
                           .opacity(isMyProfile ? 1.0 : 0.0)
     )
     .sheet(isPresented: self.$showSettings, content: {

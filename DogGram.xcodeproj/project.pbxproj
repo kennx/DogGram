@@ -11,6 +11,7 @@
 		028A403025F7951D00CBC003 /* CarouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A402F25F7951D00CBC003 /* CarouseView.swift */; };
 		028A403325F79BB900CBC003 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A403225F79BB900CBC003 /* ImageGridView.swift */; };
 		028A403625F7A27100CBC003 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A403525F7A27100CBC003 /* UploadView.swift */; };
+		02CC57818740D782A539E1AB /* Pods_DogGram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111EBFAE7D96F56A62E992B6 /* Pods_DogGram.framework */; };
 		02FD5D1725F8E5360005D9D3 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FD5D1625F8E5360005D9D3 /* SignUpView.swift */; };
 		02FD5D1A25F8EC370005D9D3 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FD5D1925F8EC370005D9D3 /* OnboardingView.swift */; };
 		02FD5D1D25F8EEF50005D9D3 /* SignInWithAppleButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FD5D1C25F8EEF50005D9D3 /* SignInWithAppleButtonCustom.swift */; };
@@ -28,6 +29,7 @@
 		38354ACF25F8BDBC00CD75E9 /* SettingsEditImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38354ACE25F8BDBC00CD75E9 /* SettingsEditImageView.swift */; };
 		3890495825F9B25000828DAF /* OnboardingViewPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3890495725F9B25000828DAF /* OnboardingViewPart2.swift */; };
 		3890495C25F9BD4400828DAF /* LikeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3890495B25F9BD4400828DAF /* LikeAnimationView.swift */; };
+		3890495F25F9FE5300828DAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3890495E25F9FE5300828DAF /* GoogleService-Info.plist */; };
 		38CB951225F778960085A183 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB951125F778960085A183 /* MessageView.swift */; };
 		38CB951525F779BE0085A183 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB951425F779BE0085A183 /* CommentModel.swift */; };
 		38CB951925F854C30085A183 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB951825F854C30085A183 /* ImagePicker.swift */; };
@@ -48,6 +50,9 @@
 		02FD5D1625F8E5360005D9D3 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		02FD5D1925F8EC370005D9D3 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		02FD5D1C25F8EEF50005D9D3 /* SignInWithAppleButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButtonCustom.swift; sourceTree = "<group>"; };
+		07F49654E488E90638CE52E0 /* Pods-DogGram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogGram.debug.xcconfig"; path = "Target Support Files/Pods-DogGram/Pods-DogGram.debug.xcconfig"; sourceTree = "<group>"; };
+		111EBFAE7D96F56A62E992B6 /* Pods_DogGram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogGram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E4B1A64624C3BA919BE4F1 /* Pods-DogGram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogGram.release.xcconfig"; path = "Target Support Files/Pods-DogGram/Pods-DogGram.release.xcconfig"; sourceTree = "<group>"; };
 		3823A89E25F75DFD008036B1 /* DogGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3823A8A125F75DFD008036B1 /* DogGramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogGramApp.swift; sourceTree = "<group>"; };
 		3823A8A325F75DFD008036B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +69,7 @@
 		38354ACE25F8BDBC00CD75E9 /* SettingsEditImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsEditImageView.swift; sourceTree = "<group>"; };
 		3890495725F9B25000828DAF /* OnboardingViewPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPart2.swift; sourceTree = "<group>"; };
 		3890495B25F9BD4400828DAF /* LikeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeAnimationView.swift; sourceTree = "<group>"; };
+		3890495E25F9FE5300828DAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		38CB951125F778960085A183 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		38CB951425F779BE0085A183 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
 		38CB951825F854C30085A183 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -81,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02CC57818740D782A539E1AB /* Pods_DogGram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +99,8 @@
 			children = (
 				3823A8A025F75DFD008036B1 /* DogGram */,
 				3823A89F25F75DFD008036B1 /* Products */,
+				4B2794C6673A39049AFC4828 /* Pods */,
+				F5F1CBE8B96A57CE3EDE54E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +120,7 @@
 				3823A8B625F760EA008036B1 /* Views */,
 				3823A8B225F75EAD008036B1 /* LaunchScreen.storyboard */,
 				3823A8A525F75DFF008036B1 /* Assets.xcassets */,
+				3890495E25F9FE5300828DAF /* GoogleService-Info.plist */,
 				3823A8AA25F75DFF008036B1 /* Info.plist */,
 				3823A8A725F75DFF008036B1 /* Preview Content */,
 			);
@@ -190,6 +200,24 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		4B2794C6673A39049AFC4828 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07F49654E488E90638CE52E0 /* Pods-DogGram.debug.xcconfig */,
+				22E4B1A64624C3BA919BE4F1 /* Pods-DogGram.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5F1CBE8B96A57CE3EDE54E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				111EBFAE7D96F56A62E992B6 /* Pods_DogGram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3823A8AD25F75DFF008036B1 /* Build configuration list for PBXNativeTarget "DogGram" */;
 			buildPhases = (
+				4377752BAFA70CCA48600275 /* [CP] Check Pods Manifest.lock */,
 				3823A89A25F75DFD008036B1 /* Sources */,
 				3823A89B25F75DFD008036B1 /* Frameworks */,
 				3823A89C25F75DFD008036B1 /* Resources */,
+				E6D28FAD4AD57F9D45CE7A95 /* [CP] Embed Pods Frameworks */,
+				3BA66010E98CA77CB474B69B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,12 +279,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				3823A8B325F75EAD008036B1 /* LaunchScreen.storyboard in Resources */,
+				3890495F25F9FE5300828DAF /* GoogleService-Info.plist in Resources */,
 				3823A8A925F75DFF008036B1 /* Preview Assets.xcassets in Resources */,
 				3823A8A625F75DFF008036B1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BA66010E98CA77CB474B69B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogGram/Pods-DogGram-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogGram/Pods-DogGram-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DogGram/Pods-DogGram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4377752BAFA70CCA48600275 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DogGram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6D28FAD4AD57F9D45CE7A95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogGram/Pods-DogGram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogGram/Pods-DogGram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DogGram/Pods-DogGram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3823A89A25F75DFD008036B1 /* Sources */ = {
@@ -412,6 +503,7 @@
 		};
 		3823A8AE25F75DFF008036B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F49654E488E90638CE52E0 /* Pods-DogGram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -434,6 +526,7 @@
 		};
 		3823A8AF25F75DFF008036B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22E4B1A64624C3BA919BE4F1 /* Pods-DogGram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

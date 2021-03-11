@@ -16,6 +16,8 @@ struct UploadView: View {
   
   @State var showPostImageView: Bool = false
   
+  @Environment(\.colorScheme) var colorScheme
+  
   var body: some View {
     ZStack(alignment: .center) {
       VStack {
@@ -45,6 +47,8 @@ struct UploadView: View {
       }
       .sheet(isPresented: self.$showImagePicker, onDismiss: self.segueToPostImageView, content: {
         ImagePicker(imageSelected: self.$imageSelected, sourceType: self.$sourceType)
+          .preferredColorScheme(self.colorScheme == .light ? .light : .dark)
+          .accentColor(self.colorScheme == .light ? Color.MyTheme.purpleColor : Color.MyTheme.yellowColor)
       })
       
       Image("logo.transparent")
